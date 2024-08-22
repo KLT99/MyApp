@@ -33,6 +33,9 @@
     <string name="updateProduct">MODIFICAR PRODUCTO</string>
     <string name="deleteProduct">ELIMINAR PRODUCTO</string>
 
+    <!--OCULTAR-->
+    <string name="ocultar">OCULTAR</string>
+
 
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
