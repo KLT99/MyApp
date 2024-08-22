@@ -17,8 +17,8 @@ public class FrameLayout extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_frame_layout);
 
-        iv1 = (ImageView) findViewById(R.id.imageView);
-        button = (Button) findViewById(R.id.btnHidden);
+        iv1 = findViewById(R.id.imageView);
+        button = findViewById(R.id.btnHidden);
 
     }
 
