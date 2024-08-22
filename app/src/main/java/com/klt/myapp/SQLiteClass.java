@@ -72,7 +72,21 @@ public class SQLiteClass extends AppCompatActivity {
         SQLiteDatabase BasedeDatos = admin.getWritableDatabase();
 
         String codigo = edt_codigo.getText().toString();
+        /*Cursor fila2 = BasedeDatos.rawQuery("SELECT * FROM articulos", null);
 
+        if (fila2.moveToFirst()){
+
+            edt_codigo.setText(fila2.getString(0));
+            edt_descripcion.setText(fila2.getString(1));
+            edt_precio.setText(fila2.getString(2));
+
+            BasedeDatos.close();
+
+        } else {
+
+            Toast.makeText(this, "No existe el artículo", Toast.LENGTH_SHORT).show();
+            BasedeDatos.close();
+        }*/
         if (!codigo.isEmpty()){
 
             //nos apoya al momento de seleccionar un codigo
